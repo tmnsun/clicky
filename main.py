@@ -14,7 +14,7 @@ class TrayIcon:
         # Initialize pygame mixer
         pygame.mixer.init()
 
-        self.volume = 0.4
+        self.volume = 0.30
 
         if getattr(sys, "frozen", False):
             # If the application is run as a bundle, the pyInstaller bootloader
